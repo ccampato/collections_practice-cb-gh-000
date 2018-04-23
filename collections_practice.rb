@@ -49,5 +49,7 @@ def add_s(a)
   a.each_with_index.collect do |element, index|
     element[index] = element+"s"
   end
+  a
   a[1] = "feet"
+  a
 end
