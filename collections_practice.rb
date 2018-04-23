@@ -46,10 +46,11 @@ def sum_array(a)
 end
 
 def add_s(a)
-  a.each_with_index.collect do |element, index|
-    element[index] = element+"s"
+  new_a = []
+  a.each do |str|
+    str += "s"
+    new_a<<str
   end
-  a
-  a[1] = "feet"
-  a
+  new_a[1] = "feet"
+  new_a
 end
