@@ -50,4 +50,5 @@ def add_s(a)
     element[index] = element+"s"
   end
   a[1] = "feet"
+  a
 end
